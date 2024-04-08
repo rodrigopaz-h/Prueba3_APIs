@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(77, 57, 57);
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: aliceblue;
+    border: solid 1px;
+    border-radius: 5px;
+    width: 900px;
+    height: 95vh;
+    padding: 10px;
+    border: solid black 3px;
+    background-color: rgb(19, 18, 30);
+    box-shadow: 0px 0px 7px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: solid black 3px;
+    background-color: rgb(49, 55, 59);
+    box-shadow: 0px 0px 7px 5px black;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+h4{
+    margin-top: 10px;
+}
+
+input{
+    width: 200px;
+    height: 35px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+select{
+    width: 200px;
+    height: 35px;
+    border-radius: 6px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+button{
+    background-image: linear-gradient(150deg, #bcb6b6, #372670, #2222be );
+    color: #fff;
+    border-radius: 8px;
+    width: 130px;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: .8em;
+    cursor: pointer;
+}
+
+.sub_box{
+    width: 700px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
